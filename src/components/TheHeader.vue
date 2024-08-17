@@ -6,12 +6,9 @@
 
 <script>
     export default {
-        
     }
 </script>
 
 <style>
-    .Theheader {
-        
-    }
+    
 </style>
