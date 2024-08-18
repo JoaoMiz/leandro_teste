@@ -1,15 +1,17 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
   <TheHeader/>
+  <PessoaLista/>
 </template>
 
 <script>
+import PessoaLista from './components/PessoaLista.vue'
 import TheHeader from './components/TheHeader.vue';
 
 export default {
   name: 'App',
   components: {
-    TheHeader
+    TheHeader,
+    PessoaLista
   }
 }
 </script>
