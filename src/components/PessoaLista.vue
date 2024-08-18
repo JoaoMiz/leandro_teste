@@ -21,19 +21,21 @@
 </template>
 
 <script>
-import { pessoas } from './Pessoas';
-
+import { fetchPessoas } from '@/api';
 export default {
     name: 'PessoaLista',
-  data() {
-      return {
-        pessoas
-    };
-  },
+    data() {
+        return {
+            pessoas: []
+        };
+    },
+    async mounted() {
+        this.pessoas = await fetchPessoas();
+    },
 };
 </script>
 
-<style scoped>
+<style>
 
     #pessoaLista {
     padding: 20px;
