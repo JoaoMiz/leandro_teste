@@ -1,6 +1,6 @@
 <template>
     <header>
-        Header
+        Lista de Pessoas
     </header>
 
     
