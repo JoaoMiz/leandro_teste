@@ -1,14 +1,14 @@
 <template>
- <div></div>
+ <CadastroPessoa/>
 </template>
 
 <script>
-
+import CadastroPessoa from './components/CadastroPessoa.vue';
 
 export default {
   name: 'AppDois',
   components: {
-    
+    CadastroPessoa
   }
 }
 </script>

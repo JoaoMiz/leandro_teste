@@ -9,9 +9,11 @@ const app = createApp(App)
 const appDois = createApp(AppDois)
 app.use(BootstrapVue3)
 app.use(IconsPlugin)
+appDois.use(BootstrapVue3)
+appDois.use(IconsPlugin)
 
 app.mount('#app')
-appDois.mount('#app2')
+appDois.mount('#appDois')
 
 
 
